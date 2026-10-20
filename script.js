@@ -108,7 +108,7 @@ console.log("Você Não pode votar!")
 
 
 
-
+//PASSOU E NAO PASSOu-----------------------------------
 
 //ver se Passou de ano
 let Notas = 6;
@@ -122,7 +122,7 @@ console.log("Você Passou🥳")
     console.log("Você Não Passou😢")
 }
 
-
+//DIFERENÇA DE NUMEROS-----------------------------------
 let numero1 = 10
 let numero2 = 10
 
@@ -140,7 +140,7 @@ else if (numero1 = numero2) {
     console.log(`Os dois numeros são iguais`)}
 
 
-
+//SISTEMA DE SENHA-----------------------------------
 
 
 let SENHA ="ABC"
@@ -153,29 +153,52 @@ if(SENHA == "ABC"){
 
 
 
+//TEMPERATURA-----------------------------------
 
+let temperatura = 11;
 
-const tempo = 18 + "°C"
-const tempo2 = 27 + "°C"
-let 
-if (tempo = 18 +"°C"){
-console.log("ta friooooo")
-}else{ (tempo2 = 27+"°C")
-  console.log("ta calorrrrrrr")  
-}else if{ (tempo2 <= tempo)
-    console.log("agradavel")
+if (temperatura < 18) {
+  console.log("Frio🥶");
+} else if (temperatura <= 27) {
+  console.log("Agradável🙂");
+} else {
+  console.log("Quente🫠");
 }
 
 
 
 
+let nota = 9 ;
+
+if (nota > 8){
+console.log("exelente");    
+}else if (nota >=7){console.log("bom")
+}else if (nota >=5){console.log("regular")
+}else{console.log("insuficiente")}
 
 
 
 
 
+const dia = 2;
 
-
+if (dia === 1) {
+  console.log("Domingo");
+} else if (dia === 2) {
+  console.log("Segunda-feira");
+} else if (dia === 3) {
+  console.log("Terça-feira");
+} else if (dia === 4) {
+  console.log("Quarta-feira");
+} else if (dia === 5) {
+  console.log("Quinta-feira");
+} else if (dia === 6) {
+  console.log("Sexta-feira");
+} else if (dia === 7) {
+  console.log("Sábado");
+} else {
+  console.log("Dia inválido");
+}
 
 
 
