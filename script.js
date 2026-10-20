@@ -209,6 +209,15 @@ if (dia === 1) {
 
 
 
+let idadeDirigir = 19;
+let temCNH = true;
+let temCarro = false;
+
+if(idadeDirigir >= 18 && temCNH == true && temCarro == true){
+    console.log("Você pode dirigir!")
+}else{console.log("voce não pode dirigir!")
+    
+}
 
 
 
@@ -216,4 +225,91 @@ if (dia === 1) {
 
 
 
+let ehProfessor = false;
+let ehAluno = true;
+
+if( ehProfessor == true || ehAluno == true){
+console.log("Você tem direito a meia entrada!")
+}else{
+    console.log("Você não tem direito a meia entrada")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 01 — Número dentro do intervalo
+
+let valor = 1
+
+if(valor >= 10 && valor <= 50){
+    console.log("seu numero esta entre 10 e 50")
+}else{
+    console.log("seu numero esta fora do intervalo")
+}
+
+
+
+
+// 02 — Elegibilidade para estágio
+let Idade = 16
+if(Idade >= 16 && Idade <= 24 ){
+console.log("voce atende ao requisito")
+}else{
+    console.log("você não atende os requisitos")
+}    
+
+//  Parte 2 — Operador OU (`||`)_________________________________________________________________
+
+//  03 — Frete grátis------------------------------
+
+let valor_compra = 199
+let eh_assinante = true
+
+if(valor_compra >= 200 || eh_assinante == true ){
+console.log("voce tem direito ao frete gratis")
+}else{
+    console.log("voce nao tem direito a frete gratis")
+}    
+
+
+
+
+// 04 — Dia de descanso--------------------------------------
+
+
+let diasDasemana = "sabado"
+
+if(diasDasemana == "sabado" || diasDasemana == "domingo" ){
+    console.log("final de semana🥳")
+}else{
+    console.log("Dia de semana😢")
+}
+
+
+
+// 05 — Promoção especial-------------------------------------------
+
+
+let preco = 150
+let assinante = true
+let codigopromocional = "CCPL"
+
+if(preco > 149 && assinante == true || codigopromocional == "CCPL"){
+console.log("voce tem direito ao desconto")
+}else{
+    console.log("voce nao tem direito ao desconto")
+}    
 
